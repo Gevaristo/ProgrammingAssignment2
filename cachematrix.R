@@ -9,9 +9,8 @@ A<-matrix(a,nrow=y,ncol=y)
 }
 
 
-
 cacheSolve <- function(A) {
 B<-solve(A)
-   return(B)
+  return(B)
    
 }
